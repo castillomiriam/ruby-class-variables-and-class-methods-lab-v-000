@@ -16,4 +16,6 @@ end
     @genre=genres
     @@genres << self
   end
+
+  def self.artists
 end
