@@ -11,4 +11,6 @@ def initialize
   @@count
 end
 
+  def self.genres
+    @@genres = []
 end
