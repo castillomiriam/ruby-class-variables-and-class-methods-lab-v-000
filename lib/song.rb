@@ -13,7 +13,7 @@ def initialize
 end
 
   def initialize(genres)
-    =genres
+    @genre=genres
     @@genres << self
   end
 end
