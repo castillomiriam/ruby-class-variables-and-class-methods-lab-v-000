@@ -15,7 +15,7 @@ def initialize
   @@count
 end
 
-  def initialize(genres)
+  def initialize(name, artist, genre)
     @genre=genres
     @@genres << self
   end
