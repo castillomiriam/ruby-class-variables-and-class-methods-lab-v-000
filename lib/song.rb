@@ -15,7 +15,8 @@ def initialize(name, artist, genre)
 
 @@genres << genres
 @@artists << @artist
-  end
+
+end
 
 
 
