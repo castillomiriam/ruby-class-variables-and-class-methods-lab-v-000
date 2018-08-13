@@ -35,7 +35,7 @@ end
   end
 
   def self.genre_count
-    @@genre_hash =
+    @@genre_hash = Hash.new(0)
   end
 
   def self.artist_count
