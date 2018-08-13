@@ -1,6 +1,6 @@
 class Song
   attr_accessor :name, :artist, :genre
-  @@cars=[]
+  @@count=[]
 def initialize(info)
   @make=info
   @@cars << self
